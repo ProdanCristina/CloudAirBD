@@ -13,8 +13,10 @@ namespace CloudAirBD.Models
         public string Email { get; set; }
         public bool Role { get; set; }
 
-        public ICollection<Booking>Booking { get; set; }
+        public ICollection<Reserve>Reserve { get; set; }
         public ICollection<Ticket> Ticket { get; set; }
+        public ICollection<Flight> Flights { get; set; }
+        public ICollection<Contact> Contact { get; set; }
 
     }
 }

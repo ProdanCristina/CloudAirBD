@@ -10,7 +10,8 @@ namespace CloudAirBD.Models
         public int CloudAirCompanyId { get; set; }
         public string Nume { get; set; }
 
-        public ICollection<Booking> Booking { get; set; }
+        public ICollection<Reserve> Booking { get; set; }
+        public ICollection<Flight> Flight { get; set; }
 
     }
 }

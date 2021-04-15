@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace CloudAirBD.Models
 {
-    public class Booking
+    public class Reserve
     {
-        public int BookingId { get; set; }
+        public int ReserveId { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
         public DateTime Date { get; set; }

@@ -15,13 +15,15 @@ namespace CloudAirBD.Models
 
             }
 
-            public DbSet<Booking> Bookings { get; set; }
+            public DbSet<Reserve>Reserves { get; set; }
 
             public DbSet<CloudAirCompany> CloudAirCompanies { get; set; }
 
             public DbSet<User> Users { get; set; }
 
             public DbSet<Ticket> Tickets { get; set; }
-        }
+            public DbSet<Flight> Flights { get; set; }
+            public DbSet<Contact> Contacts { get; set; }
+    }
     }
 

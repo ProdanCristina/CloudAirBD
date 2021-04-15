@@ -11,7 +11,7 @@ namespace CloudAirBD.Models
         public int Price { get; set; }
 
         public int BookigId { get; set; }
-        public Booking Booking { get; set; }
+        public Reserve Booking { get; set; }
 
         public int UserId { get; set; }
         public User User { get; set; }
